@@ -3,13 +3,23 @@
   margin: auto;
   text-align: center;
 }
-
+.click{
+  text-align: center;
+}
 .dice {
   text-align: center;
   display: inline-block;
 
 }
-
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.refresh{
+  background-color: red;
+  color: black;
+  margin-top: 30px;
+}
 body {
   background-color: #393E46;
 }
